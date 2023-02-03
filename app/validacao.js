@@ -23,6 +23,7 @@ function verificaSeOChutePossuiValorValido() {
     } else {
         elementoChute.innerHTML += `<div>O número secreto é maior <i class="fa-solid fa-angles-up"></i></div>`
     }
+
 } 
 
 function chuteForInvalido(numero) {
@@ -39,3 +40,4 @@ document.body.addEventListener('click', e => {
         window.location.reload()
     }
 })
+
